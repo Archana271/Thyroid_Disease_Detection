@@ -1,0 +1,18 @@
+2022-11-07/21:30:59		Invalid File Name!! File moved to Bad Raw Folder :: CreditFraud_28011960_120210.xlsx
+2022-11-07/21:30:59		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid.csv
+2022-11-07/21:30:59		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_25092022_120000.csv
+2022-11-07/21:42:03		Invalid File Name!! File moved to Bad Raw Folder :: CreditFraud_28011960_120210.xlsx
+2022-11-07/21:42:03		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid.csv
+2022-11-07/21:42:03		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_25092022_120000.csv
+2022-11-07/22:05:48		Invalid File Name!! File moved to Bad Raw Folder :: CreditFraud_28011960_120210.xlsx
+2022-11-07/22:05:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid.csv
+2022-11-07/22:05:48		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_25092022_120000.csv
+2022-11-07/22:20:14		Invalid File Name!! File moved to Bad Raw Folder :: CreditFraud_28011960_120210.xlsx
+2022-11-07/22:20:14		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid.csv
+2022-11-07/22:20:14		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_25092022_120000.csv
+2022-11-11/20:47:35		Invalid File Name!! File moved to Bad Raw Folder :: CreditFraud_28011960_120210.xlsx
+2022-11-11/20:47:35		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid.csv
+2022-11-11/20:47:35		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_25092022_120000.csv
+2022-11-12/18:49:44		Invalid File Name!! File moved to Bad Raw Folder :: CreditFraud_28011960_120210.xlsx
+2022-11-12/18:49:44		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid.csv
+2022-11-12/18:49:44		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_25092022_120000.csv
