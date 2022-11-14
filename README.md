@@ -60,9 +60,13 @@ Thyroid Disease Data Set from UCI Machine Learning Repository.
 # Data Pre-processing
 
 1.Missing values handling by Simple imputation (KNN Imputer)
+
 2.Outliers detection and removal by boxplot and percentile methods
+
 3.Categorical features handling by label encoding
+
 4.Imbalanced dataset handled by SMOTE
+
 5.Drop unnecessary columns
 
 # Model Creation and Evaluation
