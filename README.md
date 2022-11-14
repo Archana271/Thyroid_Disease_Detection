@@ -12,6 +12,10 @@ disease or not.
 For Bulk Prediction
 https://thyroid-prediction-project.herokuapp.com/
 
+# Demo
+
+https://youtu.be/sT9OAvWtcY4
+
 # Technical Aspect
 This project is divided into three part:
 
