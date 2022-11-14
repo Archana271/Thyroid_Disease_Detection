@@ -31,24 +31,39 @@ This project is divided into three part:
         Deployment was done by using github and heroku.
 
 # Project Pipline
+
 1.Batch files
+
 2.Data validation
+
 3.Data Transformation
+
 4.Data Inserstion
+
 5.Data Preprocessing
+
 6.Model creation
+
 7.Hyper parameter tunning.
+
 8.Model Evaluation
-9.Deployment(CI/CD)
+
+9.Deployment
 
 # Technical Aspects
 
 Python 3.7 and more
+
 Important Libraries: sklearn, pandas, numpy, matplotlib & seaborn
+
 Front-end: HTML, CSS
+
 Back-end: Flask framework
-IDE: Jupyter Notebook, Pycharm & VSCode
+
+IDE: Jupyter Notebook, Pycharm 
+
 Database: sqlite
+
 Deployment: Heroku
 
 # Workflow
@@ -72,8 +87,11 @@ Thyroid Disease Data Set from UCI Machine Learning Repository.
 # Model Creation and Evaluation
 
 1.Various classification algorithms like Random Forest, KNN tested.
+
 2.Random Forest and KNN were all performed well. Random Forest was chosen for the final model training and testing.
+
 3.Hyper parameter tuning was performed using RandomizedSearchCV
+
 4.Model performance evaluated based on accuracy, confusion matrix, classification report.
 
 # Database Connection
@@ -210,8 +228,8 @@ Thyroid-Disease-Detection-Predictions
 │   ├───BadData_2020-11-07_221409
 │   |   BadData_2020-11-07_222844
 │   │   BadData_2020-11-11_205538
-│   │
-│   └
+│   
+│   
 │
 ├───Prediction_Batch_files
 │       CreditFraud_28011960_120210.xlsx
