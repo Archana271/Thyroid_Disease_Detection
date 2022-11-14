@@ -111,156 +111,143 @@ The final model is deployed on Heroku using Flask framework.
 
 # Directory Tree
 
-Thyroid-Disease-Detection-Predictions
-
-|
+Credit-Card-Default-Predictions
+│
+├───.github
+│   └───workflows
+│           main.yaml
+│
 ├───.idea
 │   │   .gitignore
-|   |   .name
-│   │   Thyroid_Disease_Detection.iml
+│   │   creditcarddefault.iml
 │   │   misc.xml
 │   │   modules.xml
 │   │   vcs.xml
-│   │   
+│   │   workspace.xml
 │   │
 │   └───inspectionProfiles
 │           profiles_settings.xml
 │           Project_Default.xml
-
 │
 ├───.ipynb_checkpoints
 │       Credit Card Default -checkpoint.ipynb
-
 │
 ├───All Project Documents
-│       Architecture design.pdf
+│       architecture design.pdf
 │       Deatail Project Report.pdf
 │       HLD.pdf
 │       LLD.pdf
 │       Project demo video.mp4
 │       Wireframe_Documentaion.pdf
-
 │
 ├───application_logging
 │   │   logger.py
 │   │
 │   └───__pycache__
+│           logger.cpython-36.pyc
 │           logger.cpython-37.pyc
-
-│           
 │
 ├───best_model_finder
 │   │   tuner.py
 │   │
 │   └───__pycache__
+│           tuner.cpython-36.pyc
 │           tuner.cpython-37.pyc
-
-│           
 │
 ├───DataTransformation_Prediction
 │   │   DataTransformationPrediction.py
-
 │   │
 │   └───__pycache__
+│           DataTransformationPrediction.cpython-36.pyc
 │           DataTransformationPrediction.cpython-37.pyc
-
-│           
 │
 ├───DataTransform_Training
 │   │   DataTransformation.py
 │   │
 │   └───__pycache__
+│           DataTransformation.cpython-36.pyc
 │           DataTransformation.cpython-37.pyc
-
-│           
 │
 ├───DataTypeValidation_Insertion_Prediction
 │   │   DataTypeValidationPrediction.py
 │   │
 │   └───__pycache__
+│           DataTypeValidationPrediction.cpython-36.pyc
 │           DataTypeValidationPrediction.cpython-37.pyc
-
-│           
 │
 ├───DataTypeValidation_Insertion_Training
 │   │   DataTypeValidation.py
 │   │
 │   └───__pycache__
+│           DataTypeValidation.cpython-36.pyc
 │           DataTypeValidation.cpython-37.pyc
-
-│           
 │
 ├───data_ingestion
 │   │   data_loader.py
 │   │   data_loader_prediction.py
 │   │
 │   └───__pycache__
-│           
+│           data_loader.cpython-36.pyc
 │           data_loader.cpython-37.pyc
+│           data_loader_prediction.cpython-36.pyc
 │           data_loader_prediction.cpython-37.pyc
-
-│           
 │
 ├───data_preprocessing
 │   │   clustering.py
 │   │   preprocessing.py
 │   │
 │   └───__pycache__
-│           
+│           clustering.cpython-36.pyc
 │           clustering.cpython-37.pyc
+│           preprocessing.cpython-36.pyc
 │           preprocessing.cpython-37.pyc
-
-│           
-│           
+│           preprocessing_pred.cpython-36.pyc
 │
 ├───file_operations
 │   │   file_methods.py
 │   │
 │   └───__pycache__
+│           file_methods.cpython-36.pyc
 │           file_methods.cpython-37.pyc
-
-│           
 │
 ├───models
 │   ├───KMeans
 │   │       KMeans.sav
 │   │
-│   ├───KNN1
-│   │       KNN1.sav
+│   ├───XGBoost0
+│   │       XGBoost0.sav
 │   │
-│   ├───RandomForest0
-│   │       RandomForest0.sav
+│   ├───XGBoost1
+│   │       XGBoost1.sav
 │   │
-│   ├───RandomForest2
-│   │       RandomForest2.sav
+│   ├───XGBoost2
+│   │       XGBoost2.sav
 │   │
-│   └
-
+│   └───XGBoost3
+│           XGBoost3.sav
 │
 ├───PredictionArchivedBadData
-│   ├───BadData_2022-11-07_213927
-│   ├───BadData_2022-11-07_215028
-│   ├───BadData_2020-11-07_221409
-│   |   BadData_2020-11-07_222844
-│   │   BadData_2020-11-11_205538
-
-│   
-│   
+│   ├───BadData_2020-02-19_165637
+│   ├───BadData_2020-02-19_173611
+│   ├───BadData_2020-04-12_215100
+│   │       creditCardFraud_28011961_12.csv
+│   │       creditCardFraud_28011963_120213.csv
+│   │
+│   └───BadData_2022-07-26_230649
+│           creditCardFraud_28011961_12.csv
+│           creditCardFraud_28011963_120213.csv
 │
 ├───Prediction_Batch_files
-│       CreditFraud_28011960_120210.xlsx
-│       hypothyroid.csv
-│       hypothyroid_25092022_120000.csv
-
-│       
+│       creditCardFraud_28011960_120210.csv
+│       creditCardFraud_28011961_12.csv
+│       creditCardFraud_28011962_120212.csv
+│       creditCardFraud_28011963_120213.csv
 │
 ├───Prediction_Database
 │       Prediction.db
-
 │
 ├───Prediction_FileFromDB
 │       InputFile.csv
-
 │
 ├───Prediction_Logs
 │       columnValidationLog.txt
@@ -273,72 +260,68 @@ Thyroid-Disease-Detection-Predictions
 │       missingValuesInColumn.txt
 │       nameValidationLog.txt
 │       Prediction_Log.txt
-
 │
 ├───Prediction_Output_File
 │       Predictions.csv
-
 │
 ├───Prediction_Raw_Data_Validation
 │   │   predictionDataValidation.py
 │   │
 │   └───__pycache__
+│           predictionDataValidation.cpython-36.pyc
 │           predictionDataValidation.cpython-37.pyc
-
-│           
 │
 ├───Prediction_Raw_Files_Validated
-
-│       
+│       sample.txt
 │
 ├───preprocessing_data
 │       K-Means_Elbow.PNG
-|       null_values.csv
-
 │
-├───EncoderPickle
+├───SingleValueModels
 │       rfc.pkl
-
 │
-|
+├───SinglrValuePredictionLogs
+│       SingleValuePredictionLogs.txt
 │
 ├───static
 │   ├───images
-│   │     
-│   │       thyroi-min.jpg
-│   │       
+│   │       github.png
+│   │       image4.gif
+│   │       linkden.jpg
+│   │       logo.jpg
 │   │
 │   └───styles
 │           style.css
-
 │
 ├───templates
 │       index.html
 │       prediction.html
 │       result.html
+│       singlevalueprediction.html
 │       training.html
-
 │
 ├───TrainingArchiveBadData
-│   ├───BadData_2022-11-07_200056
-│   │       
+│   ├───BadData_2022-07-18_191749
+│   │       CreditFraud_28011960_120210.xlsx
+│   │       file_seperator.ipynb
 │   │
-│   └───BadData_2022-11-11_203032
-
-│           
+│   └───BadData_2022-07-26_220500
+│           CreditFraud_28011960_120210.xlsx
+│           file_seperator.ipynb
 │
 ├───Training_Batch_Files
+│       creditCardFraud_28011960_120210.csv
+│       creditCardFraud_28011961_120211.csv
+│       creditCardFraud_28011962_120212.csv
+│       creditCardFraud_28011963_120213.csv
+│       creditCardFraud_28011964_120214.csv
 │       CreditFraud_28011960_120210.xlsx
-│       hypothyroid.csv
-│       hypothyroid_25092022_120000.csv
-
+│       file_seperator.ipynb
 │
 ├───Training_Database
 │       Training.db
-
 │
 ├───Training_FileFromDB
-
 │
 ├───Training_Logs
 │       columnValidationLog.txt
@@ -352,11 +335,12 @@ Thyroid-Disease-Detection-Predictions
 │       ModelTrainingLog.txt
 │       nameValidationLog.txt
 │       valuesfromSchemaValidationLog.txt
-
 │
 ├───Training_Raw_data_validation
 ├───Training_Raw_files_validated
-│   main.py
+│   app.py
+│   Credit Card Default .ipynb
+│   Dockerfile
 │   predictFromModel.py
 │   prediction_Validation_Insertion.py
 │   Procfile
@@ -366,7 +350,8 @@ Thyroid-Disease-Detection-Predictions
 │   trainingModel.py
 │   Training_Main_Log.txt
 │   training_Validation_Insertion.py
-
+│   tree.txt
+│   UCI_Credit_Card.csv
 
 
 # Author
