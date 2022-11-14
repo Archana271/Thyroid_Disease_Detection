@@ -112,6 +112,7 @@ The final model is deployed on Heroku using Flask framework.
 # Directory Tree
 
 Thyroid-Disease-Detection-Predictions
+
 |
 ├───.idea
 │   │   .gitignore
@@ -125,9 +126,11 @@ Thyroid-Disease-Detection-Predictions
 │   └───inspectionProfiles
 │           profiles_settings.xml
 │           Project_Default.xml
+
 │
 ├───.ipynb_checkpoints
 │       Credit Card Default -checkpoint.ipynb
+
 │
 ├───All Project Documents
 │       Architecture design.pdf
@@ -136,12 +139,14 @@ Thyroid-Disease-Detection-Predictions
 │       LLD.pdf
 │       Project demo video.mp4
 │       Wireframe_Documentaion.pdf
+
 │
 ├───application_logging
 │   │   logger.py
 │   │
 │   └───__pycache__
 │           logger.cpython-37.pyc
+
 │           
 │
 ├───best_model_finder
@@ -149,13 +154,16 @@ Thyroid-Disease-Detection-Predictions
 │   │
 │   └───__pycache__
 │           tuner.cpython-37.pyc
+
 │           
 │
 ├───DataTransformation_Prediction
 │   │   DataTransformationPrediction.py
+
 │   │
 │   └───__pycache__
 │           DataTransformationPrediction.cpython-37.pyc
+
 │           
 │
 ├───DataTransform_Training
@@ -163,6 +171,7 @@ Thyroid-Disease-Detection-Predictions
 │   │
 │   └───__pycache__
 │           DataTransformation.cpython-37.pyc
+
 │           
 │
 ├───DataTypeValidation_Insertion_Prediction
@@ -170,6 +179,7 @@ Thyroid-Disease-Detection-Predictions
 │   │
 │   └───__pycache__
 │           DataTypeValidationPrediction.cpython-37.pyc
+
 │           
 │
 ├───DataTypeValidation_Insertion_Training
@@ -177,6 +187,7 @@ Thyroid-Disease-Detection-Predictions
 │   │
 │   └───__pycache__
 │           DataTypeValidation.cpython-37.pyc
+
 │           
 │
 ├───data_ingestion
@@ -187,6 +198,7 @@ Thyroid-Disease-Detection-Predictions
 │           
 │           data_loader.cpython-37.pyc
 │           data_loader_prediction.cpython-37.pyc
+
 │           
 │
 ├───data_preprocessing
@@ -197,6 +209,7 @@ Thyroid-Disease-Detection-Predictions
 │           
 │           clustering.cpython-37.pyc
 │           preprocessing.cpython-37.pyc
+
 │           
 │           
 │
@@ -205,6 +218,7 @@ Thyroid-Disease-Detection-Predictions
 │   │
 │   └───__pycache__
 │           file_methods.cpython-37.pyc
+
 │           
 │
 ├───models
@@ -221,6 +235,7 @@ Thyroid-Disease-Detection-Predictions
 │   │       RandomForest2.sav
 │   │
 │   └
+
 │
 ├───PredictionArchivedBadData
 │   ├───BadData_2022-11-07_213927
@@ -228,6 +243,7 @@ Thyroid-Disease-Detection-Predictions
 │   ├───BadData_2020-11-07_221409
 │   |   BadData_2020-11-07_222844
 │   │   BadData_2020-11-11_205538
+
 │   
 │   
 │
@@ -235,13 +251,16 @@ Thyroid-Disease-Detection-Predictions
 │       CreditFraud_28011960_120210.xlsx
 │       hypothyroid.csv
 │       hypothyroid_25092022_120000.csv
+
 │       
 │
 ├───Prediction_Database
 │       Prediction.db
+
 │
 ├───Prediction_FileFromDB
 │       InputFile.csv
+
 │
 ├───Prediction_Logs
 │       columnValidationLog.txt
@@ -254,26 +273,32 @@ Thyroid-Disease-Detection-Predictions
 │       missingValuesInColumn.txt
 │       nameValidationLog.txt
 │       Prediction_Log.txt
+
 │
 ├───Prediction_Output_File
 │       Predictions.csv
+
 │
 ├───Prediction_Raw_Data_Validation
 │   │   predictionDataValidation.py
 │   │
 │   └───__pycache__
 │           predictionDataValidation.cpython-37.pyc
+
 │           
 │
 ├───Prediction_Raw_Files_Validated
+
 │       
 │
 ├───preprocessing_data
 │       K-Means_Elbow.PNG
 |       null_values.csv
+
 │
 ├───EncoderPickle
 │       rfc.pkl
+
 │
 |
 │
@@ -285,29 +310,35 @@ Thyroid-Disease-Detection-Predictions
 │   │
 │   └───styles
 │           style.css
+
 │
 ├───templates
 │       index.html
 │       prediction.html
 │       result.html
 │       training.html
+
 │
 ├───TrainingArchiveBadData
 │   ├───BadData_2022-11-07_200056
 │   │       
 │   │
 │   └───BadData_2022-11-11_203032
+
 │           
 │
 ├───Training_Batch_Files
 │       CreditFraud_28011960_120210.xlsx
 │       hypothyroid.csv
 │       hypothyroid_25092022_120000.csv
+
 │
 ├───Training_Database
 │       Training.db
+
 │
 ├───Training_FileFromDB
+
 │
 ├───Training_Logs
 │       columnValidationLog.txt
@@ -321,6 +352,7 @@ Thyroid-Disease-Detection-Predictions
 │       ModelTrainingLog.txt
 │       nameValidationLog.txt
 │       valuesfromSchemaValidationLog.txt
+
 │
 ├───Training_Raw_data_validation
 ├───Training_Raw_files_validated
@@ -334,6 +366,7 @@ Thyroid-Disease-Detection-Predictions
 │   trainingModel.py
 │   Training_Main_Log.txt
 │   training_Validation_Insertion.py
+
 
 
 # Author
