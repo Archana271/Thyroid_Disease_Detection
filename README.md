@@ -92,7 +92,7 @@ Thyroid Disease Data Set from UCI Machine Learning Repository.
 
 1.Various classification algorithms like Random Forest, KNN tested.
 
-2.Random Forest and KNN were all performed well. Random Forest was chosen for the final model training and testing.
+2.Random Forest and KNN were all performed well. KNN was chosen for the final model training and testing.
 
 3.Hyper parameter tuning was performed using RandomizedSearchCV
 
